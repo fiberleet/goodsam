@@ -1,0 +1,196 @@
+/* Style the body */
+body {
+  margin: 0 auto !important;
+  padding: 0;
+  background: #162732;
+  background-size: 100px auto;
+  font-family:"Scope One", "Arial Black", Gadget, sans-serif;
+  color: #FCDF02;
+}
+
+.header-container{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.logo{
+  float: left;
+  height: 72px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.header {
+  font-family:"Scope One", "Arial Black", Gadget, sans-serif;
+  color: #FCDF02;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.navbar a:hover{
+  text-decoration: underline;
+}
+.phone {
+  font-size: 30px;
+}
+.header-title {
+  font-size: xx-large;
+}
+
+.navbar {
+  font-family:"Scope One", "Arial Black", Gadget, sans-serif;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 12px auto;
+  padding: 3px;
+  border-top: 1px solid #FCDF02;
+  border-bottom: 1px solid #FCDF02;
+}
+.nav-item {
+  width: 150px;
+  align-self: center;
+  text-align: center;
+  font-weight: bolder;
+  padding: 2px;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.motto {
+  color: #FCDF02;
+  font-family:"Bad Script", "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portrait {
+  height: 360px;
+  width: 479px;
+  padding: 20px;
+}
+
+.description {
+  font-size: 1.5em;
+  padding: 20px;
+}
+.description ul{
+  list-style-type: none;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* yellow pages */
+.fa-yellow {
+  background: #FCDF02;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.fa-yelp {
+  background: red;
+  color: white;
+}
+
+.call {
+  font-size: 30px;
+  align-self: center;
+}
+
+.about-container{
+  display: flex;
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white;
+}
+.about-me {
+  font-size: 20px;
+  width: 400px;
+}
+
+.about-customers {
+  font-size: 20px;
+  width: 400px;
+}
+
+.about-customers h1{
+  color:#FCDF02;
+}
+
+.services-container {
+  display: flex;
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 20px;
+}
+
+#map {
+  height: 360px;
+  min-width: 400px;
+  margin: 20px;
+  flex-grow: 1;
+} 
+
+.services {
+  width: 500px;
+}
+
+.footer {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 12px auto;
+  padding: 3px;
+  border-top: 1px solid #FCDF02;
+  font-size: 20px;
+}
+
+.footer-info {
+  margin: 20px;
+}

@@ -1,15 +1,15 @@
 // Initialize and add the map
 function initMap() {
-    // The location of Winchester
-    const winchester = { lat: 37.99992208101619, lng: -84.19208744728337 };
-    // The map, centered at Winchester
+    // The location of Richmond
+    const richmond = { lat: 37.74, lng: -84.29 };
+    // The map, centered at Richmond
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
-        center: winchester,
+        center: richmond,
     });
-    // The marker, positioned at Winchester
+    // The marker, positioned at Richmond
     const marker = new google.maps.Marker({
-        position: winchester,
+        position: richmond,
         map: map,
     });
 }
